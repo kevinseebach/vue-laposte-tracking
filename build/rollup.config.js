@@ -7,7 +7,12 @@ export default {
   output: {
     name: 'LaposteTracking',
     exports: 'named',
+    globals: {
+     'axios': 'axios',
+     'moment': 'moment'
+    }
   },
+  external: ["axios", "moment"],
   plugins: [
     commonjs(),
     vue({

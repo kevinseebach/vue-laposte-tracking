@@ -74,7 +74,7 @@ export default {
   },
   filters: {
     frenchDate: function (date) {
-      return (date) ? moment(date).format('DD/MM/YYYY') : "N.C.";
+      return (date) ? moment(date).format('DD/MM/YYYY') : "";
     }
   },
   mounted: function() {
