@@ -81,7 +81,8 @@ export default {
     axios
       .get('https://api.laposte.fr/suivi/v2/idships/'+this.tracking,{
         'headers': {
-          'X-Okapi-Key': 'hNGX6CyWPEg512pUgcnyl3z2TwFMgFM38d4qGVWW6cnErRlmQZC1XacRgUpENmu4'
+          'X-Okapi-Key': '6eyvCECw3uLjIxlXRS3saCBqQ5aHJDw1vDxo6zj3vhnLeJNoNQz1+LWICn9dPB0+',
+          'Accept': 'application/json'
         }
       })
       .then(res => {
