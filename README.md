@@ -1,5 +1,4 @@
-# my-github-profilecard
-
+# vue-laposte-tracking
 Display a tracking informations about your Laposte parcels : Lettre suivi, Colissimo, Chronopost
 
 ![alt text](demo.png)
